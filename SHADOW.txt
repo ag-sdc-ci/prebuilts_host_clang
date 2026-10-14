@@ -1,0 +1,7 @@
+shadow prebuilt repo: clang (host base)
+  upstream: prebuilts/clang/host/linux-x86
+  role: host
+  api-level: universal (branch universal-20261014; host clang toolchain base is API-agnostic)
+  layout: Android.bp, soong build modules, kleaf rules, profiles, stable binutils links
+  sync path: prebuilts/host/clang/host/linux-x86 (with compat link to prebuilts/clang/host/linux-x86)
+  date: 2026-10-14
